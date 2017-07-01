@@ -29,7 +29,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
 // Mongoose db configuration
-var databaseUri = "mongodb://localhost/mongonews";
+var databaseUri = "mongodb://heroku_xcjcb97fihq7dm8vu1kcocbtd1of0cb193k@ds143342.mlab.com:43342/heroku_xcjcb97f";
     if(process.env.MONGODB_URI){
         mongoose.connect(process.env.MONGODB_URI);
     }else{
